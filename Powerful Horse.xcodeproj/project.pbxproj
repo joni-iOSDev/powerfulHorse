@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		D640D3B32482445A002A283E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640D3B22482445A002A283E /* AppDelegate.swift */; };
 		D640D3B52482445A002A283E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640D3B42482445A002A283E /* SceneDelegate.swift */; };
-		D640D3B72482445A002A283E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640D3B62482445A002A283E /* ViewController.swift */; };
 		D640D3BA2482445A002A283E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D640D3B82482445A002A283E /* Main.storyboard */; };
 		D640D3BC2482445F002A283E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D640D3BB2482445F002A283E /* Assets.xcassets */; };
 		D640D3BF2482445F002A283E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D640D3BD2482445F002A283E /* LaunchScreen.storyboard */; };
+		D640D3C724824562002A283E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640D3C624824562002A283E /* MainVC.swift */; };
+		D67EB2252482C452009A1DD8 /* HorseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67EB2242482C452009A1DD8 /* HorseCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D640D3AF2482445A002A283E /* Powerful Horse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Powerful Horse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D640D3B22482445A002A283E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D640D3B42482445A002A283E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D640D3B62482445A002A283E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D640D3B92482445A002A283E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D640D3BB2482445F002A283E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D640D3BE2482445F002A283E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D640D3C02482445F002A283E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D640D3C624824562002A283E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D67EB2242482C452009A1DD8 /* HorseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,72 @@
 		D640D3B12482445A002A283E /* Powerful Horse */ = {
 			isa = PBXGroup;
 			children = (
-				D640D3B22482445A002A283E /* AppDelegate.swift */,
-				D640D3B42482445A002A283E /* SceneDelegate.swift */,
-				D640D3B62482445A002A283E /* ViewController.swift */,
-				D640D3B82482445A002A283E /* Main.storyboard */,
-				D640D3BB2482445F002A283E /* Assets.xcassets */,
-				D640D3BD2482445F002A283E /* LaunchScreen.storyboard */,
-				D640D3C02482445F002A283E /* Info.plist */,
+				D640D3CD24824687002A283E /* Models */,
+				D640D3CC24824665002A283E /* Main */,
+				D640D3CB24824620002A283E /* Startup */,
+				D640D3CA24824607002A283E /* Supporting File */,
+				D640D3CE2482469F002A283E /* Resources */,
+				D640D3C9248245C6002A283E /* Views */,
+				D640D3C8248245B0002A283E /* Controllers */,
 			);
 			path = "Powerful Horse";
+			sourceTree = "<group>";
+		};
+		D640D3C8248245B0002A283E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D640D3C9248245C6002A283E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D67EB2242482C452009A1DD8 /* HorseCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D640D3CA24824607002A283E /* Supporting File */ = {
+			isa = PBXGroup;
+			children = (
+				D640D3C02482445F002A283E /* Info.plist */,
+				D640D3BD2482445F002A283E /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting File";
+			sourceTree = "<group>";
+		};
+		D640D3CB24824620002A283E /* Startup */ = {
+			isa = PBXGroup;
+			children = (
+				D640D3B42482445A002A283E /* SceneDelegate.swift */,
+				D640D3B22482445A002A283E /* AppDelegate.swift */,
+			);
+			path = Startup;
+			sourceTree = "<group>";
+		};
+		D640D3CC24824665002A283E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D640D3B82482445A002A283E /* Main.storyboard */,
+				D640D3C624824562002A283E /* MainVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D640D3CD24824687002A283E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D640D3CE2482469F002A283E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D640D3BB2482445F002A283E /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +197,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D640D3B72482445A002A283E /* ViewController.swift in Sources */,
+				D640D3C724824562002A283E /* MainVC.swift in Sources */,
 				D640D3B32482445A002A283E /* AppDelegate.swift in Sources */,
 				D640D3B52482445A002A283E /* SceneDelegate.swift in Sources */,
+				D67EB2252482C452009A1DD8 /* HorseCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7ZXBNHZSB;
-				INFOPLIST_FILE = "Powerful Horse/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Powerful Horse/Supporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D7ZXBNHZSB;
-				INFOPLIST_FILE = "Powerful Horse/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Powerful Horse/Supporting File/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
