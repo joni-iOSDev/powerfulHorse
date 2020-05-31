@@ -68,11 +68,11 @@
 		D640D3B12482445A002A283E /* Powerful Horse */ = {
 			isa = PBXGroup;
 			children = (
-				D640D3CD24824687002A283E /* Models */,
 				D640D3CC24824665002A283E /* Main */,
 				D640D3CB24824620002A283E /* Startup */,
 				D640D3CA24824607002A283E /* Supporting File */,
 				D640D3CE2482469F002A283E /* Resources */,
+				D640D3CD24824687002A283E /* Models */,
 				D640D3C9248245C6002A283E /* Views */,
 				D640D3C8248245B0002A283E /* Controllers */,
 			);
