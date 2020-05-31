@@ -25,13 +25,11 @@ class DetailHorseVC: BaseVC {
         customButton.widthAnchor.constraint(equalToConstant: 200).isActive = true
         customButton.heightAnchor.constraint(equalToConstant: 44).isActive = true
         customButton.layer.cornerRadius = 20
-        customButton.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 50)
+        customButton.imageEdgeInsets = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
         customButton.tintColor = .white
         customButton.backgroundColor = .blue
-        customButton.setTitle("Facebook", for: .normal)
+        customButton.setTitle("Iniciar con Facebook", for: .normal)
         customButton.setImage(icon, for: .normal)
-        
-        
     }
     
        
