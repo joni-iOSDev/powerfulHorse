@@ -16,9 +16,9 @@
 		D67EB2252482C452009A1DD8 /* HorseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67EB2242482C452009A1DD8 /* HorseCell.swift */; };
 		D67EB2272482C5AB009A1DD8 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67EB2262482C5AB009A1DD8 /* DashboardVC.swift */; };
 		D68A6CD924838051007D99BD /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A6CD824838051007D99BD /* Horse.swift */; };
-		D68A6CDB2483864E007D99BD /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A6CDA2483864E007D99BD /* BaseVC.swift */; };
 		D68A6CDD248390C2007D99BD /* DetailHorseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A6CDC248390C2007D99BD /* DetailHorseVC.swift */; };
 		D6FAFE3924839F63009EFC42 /* ExtensionUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FAFE3824839F63009EFC42 /* ExtensionUI.swift */; };
+		D6FAFE3C248452F9009EFC42 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FAFE3B248452F9009EFC42 /* BaseVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,9 +33,9 @@
 		D67EB2242482C452009A1DD8 /* HorseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorseCell.swift; sourceTree = "<group>"; };
 		D67EB2262482C5AB009A1DD8 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
 		D68A6CD824838051007D99BD /* Horse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
-		D68A6CDA2483864E007D99BD /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseVC.swift; path = Base/BaseVC.swift; sourceTree = "<group>"; };
 		D68A6CDC248390C2007D99BD /* DetailHorseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHorseVC.swift; sourceTree = "<group>"; };
 		D6FAFE3824839F63009EFC42 /* ExtensionUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionUI.swift; sourceTree = "<group>"; };
+		D6FAFE3B248452F9009EFC42 /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		D640D3C8248245B0002A283E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D68A6CDA2483864E007D99BD /* BaseVC.swift */,
+				D6FAFE3A248452F9009EFC42 /* Base */,
 				D67EB2262482C5AB009A1DD8 /* DashboardVC.swift */,
 				D68A6CDC248390C2007D99BD /* DetailHorseVC.swift */,
 			);
@@ -147,6 +147,14 @@
 				D6FAFE3824839F63009EFC42 /* ExtensionUI.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		D6FAFE3A248452F9009EFC42 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAFE3B248452F9009EFC42 /* BaseVC.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,10 +232,10 @@
 				D67EB2272482C5AB009A1DD8 /* DashboardVC.swift in Sources */,
 				D640D3B32482445A002A283E /* AppDelegate.swift in Sources */,
 				D6FAFE3924839F63009EFC42 /* ExtensionUI.swift in Sources */,
+				D6FAFE3C248452F9009EFC42 /* BaseVC.swift in Sources */,
 				D68A6CDD248390C2007D99BD /* DetailHorseVC.swift in Sources */,
 				D68A6CD924838051007D99BD /* Horse.swift in Sources */,
 				D640D3B52482445A002A283E /* SceneDelegate.swift in Sources */,
-				D68A6CDB2483864E007D99BD /* BaseVC.swift in Sources */,
 				D67EB2252482C452009A1DD8 /* HorseCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
