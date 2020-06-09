@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B8D9AB82486151C0077B67A /* CallKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D9AB72486151C0077B67A /* CallKitVC.swift */; };
+		8B8D9ABA248617660077B67A /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D9AB9248617660077B67A /* Call.swift */; };
+		8B8D9ABC248620360077B67A /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D9ABB248620360077B67A /* CallManager.swift */; };
 		D640D3B32482445A002A283E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640D3B22482445A002A283E /* AppDelegate.swift */; };
 		D640D3B52482445A002A283E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640D3B42482445A002A283E /* SceneDelegate.swift */; };
 		D640D3BA2482445A002A283E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D640D3B82482445A002A283E /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B8D9AB72486151C0077B67A /* CallKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitVC.swift; sourceTree = "<group>"; };
+		8B8D9AB9248617660077B67A /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		8B8D9ABB248620360077B67A /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
 		D640D3AF2482445A002A283E /* Powerful Horse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Powerful Horse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D640D3B22482445A002A283E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D640D3B42482445A002A283E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +91,7 @@
 				D6FAFE3A248452F9009EFC42 /* Base */,
 				D67EB2262482C5AB009A1DD8 /* DashboardVC.swift */,
 				D68A6CDC248390C2007D99BD /* DetailHorseVC.swift */,
+				8B8D9AB72486151C0077B67A /* CallKitVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -129,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				D68A6CD824838051007D99BD /* Horse.swift */,
+				8B8D9AB9248617660077B67A /* Call.swift */,
+				8B8D9ABB248620360077B67A /* CallManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -231,10 +240,13 @@
 				D640D3C724824562002A283E /* MainVC.swift in Sources */,
 				D67EB2272482C5AB009A1DD8 /* DashboardVC.swift in Sources */,
 				D640D3B32482445A002A283E /* AppDelegate.swift in Sources */,
+				8B8D9ABC248620360077B67A /* CallManager.swift in Sources */,
 				D6FAFE3924839F63009EFC42 /* ExtensionUI.swift in Sources */,
 				D6FAFE3C248452F9009EFC42 /* BaseVC.swift in Sources */,
+				8B8D9ABA248617660077B67A /* Call.swift in Sources */,
 				D68A6CDD248390C2007D99BD /* DetailHorseVC.swift in Sources */,
 				D68A6CD924838051007D99BD /* Horse.swift in Sources */,
+				8B8D9AB82486151C0077B67A /* CallKitVC.swift in Sources */,
 				D640D3B52482445A002A283E /* SceneDelegate.swift in Sources */,
 				D67EB2252482C452009A1DD8 /* HorseCell.swift in Sources */,
 			);

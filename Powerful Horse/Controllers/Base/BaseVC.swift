@@ -23,5 +23,7 @@ class BaseVC: UIViewController {
     enum goToVC: String {
         case goToDashboard = "goToDashboard"
         case goToDetailHorse = "goToDetailHorse"
+        case goToAutoScroll = "goToAutoScroll"
+        case goToCallKit = "goToCallKit"
     }
 }

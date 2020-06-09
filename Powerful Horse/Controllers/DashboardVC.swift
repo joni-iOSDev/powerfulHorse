@@ -13,7 +13,7 @@ class DashboardVC: BaseVC {
     // Property
     @IBOutlet weak var horsesTableView: UITableView!
     
-    let horses = ["Custom Button 1"]
+    let horses = ["Custom Button 1", "AutoScroll"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,6 +57,8 @@ extension DashboardVC: UITableViewDelegate {
         switch indexPath.row {
         case 0:
             goTo(segue: .goToDetailHorse)
+        case 1:
+            goTo(segue: .goToAutoScroll)
         default:
             ()
         }
