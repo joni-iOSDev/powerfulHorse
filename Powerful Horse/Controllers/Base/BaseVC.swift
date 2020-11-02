@@ -11,10 +11,15 @@ import UIKit
 
 class BaseVC: UIViewController {
     
+    var name: demoFinal?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        //
+        name = demoFinal(name: "demo")
     }
+    
+    
     
      func goTo(segue: goToVC) {
         self.performSegue(withIdentifier: segue.rawValue, sender: self)
@@ -25,5 +30,15 @@ class BaseVC: UIViewController {
         case goToDetailHorse = "goToDetailHorse"
         case goToAutoScroll = "goToAutoScroll"
         case goToCallKit = "goToCallKit"
+        case goToConstraint = "goToConstraint"
+
+    }
+}
+
+final class demoFinal {
+    var name: String
+    
+    init(name: String) {
+        self.name = name
     }
 }

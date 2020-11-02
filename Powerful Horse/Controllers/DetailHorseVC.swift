@@ -11,6 +11,7 @@ import UIKit
 class DetailHorseVC: BaseVC {
     
     @IBOutlet weak var customButton: UIButton!
+    @IBOutlet weak var ovalView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,8 +35,35 @@ class DetailHorseVC: BaseVC {
     
        
     @IBAction func customButtonTapped(_ sender: UIButton) {
+        PHServices.shared.getGames(
+            vc: self,
+            onInitRequest: {
+                ()
+        }, onFinisRequest: {
+            ()
+        }, onError: { (error) in
+            ()
+        }, onFatal: {
+            ()
+        }) { (status, response) in
+            ()
+        }
+    }
+    
+    func ovalViewContainer() {
         
     }
     
+}
+
+class ovalViewDEMO: UIView {
+    
+    override func draw(_ rect: CGRect) {
+        //// Oval Drawing
+        let ovalPath = UIBezierPath(ovalIn: CGRect(x: 19, y: 19, width: 82, height: 82))
+        UIColor.gray.setFill()
+        ovalPath.fill()
+    }
+
 }
 
