@@ -13,6 +13,8 @@
 		8B412F4E24EC9CF200444AD5 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B412F4D24EC9CF200444AD5 /* AuthVC.swift */; };
 		8B412F5024ECABC000444AD5 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B412F4F24ECABC000444AD5 /* UserManager.swift */; };
 		8B412F5224ECABFC00444AD5 /* PHUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B412F5124ECABFC00444AD5 /* PHUser.swift */; };
+		8B4CF508255BAE4300CEA510 /* HeroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CF507255BAE4300CEA510 /* HeroVC.swift */; };
+		8B4CF50B255BAE9F00CEA510 /* HeroPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4CF50A255BAE9F00CEA510 /* HeroPresenter.swift */; };
 		8B8D9AB82486151C0077B67A /* CallKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D9AB72486151C0077B67A /* CallKitVC.swift */; };
 		8B8D9ABA248617660077B67A /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D9AB9248617660077B67A /* Call.swift */; };
 		8B8D9ABC248620360077B67A /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D9ABB248620360077B67A /* CallManager.swift */; };
@@ -50,6 +52,8 @@
 		8B412F4D24EC9CF200444AD5 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		8B412F4F24ECABC000444AD5 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		8B412F5124ECABFC00444AD5 /* PHUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHUser.swift; sourceTree = "<group>"; };
+		8B4CF507255BAE4300CEA510 /* HeroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroVC.swift; sourceTree = "<group>"; };
+		8B4CF50A255BAE9F00CEA510 /* HeroPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroPresenter.swift; sourceTree = "<group>"; };
 		8B8D9AB72486151C0077B67A /* CallKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallKitVC.swift; sourceTree = "<group>"; };
 		8B8D9AB9248617660077B67A /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
 		8B8D9ABB248620360077B67A /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 		8BC5497C24E8F5F900C1FCA5 /* HTTPExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPExtensions.swift; sourceTree = "<group>"; };
 		8BCE2DF524EC83E1007C0999 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
 		8BE21A5424EA523A0017B8C0 /* PHParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHParameters.swift; sourceTree = "<group>"; };
+		8BE93DB3256C6FD500702B28 /* day.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BE93DB5256C70A000702B28 /* 100DaysofSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 100DaysofSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8BEB38D024E8FCEF00875607 /* HTTPContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPContentType.swift; sourceTree = "<group>"; };
 		8BEB38D224EA1CC600875607 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
 		8BED75832490BDC600A00B55 /* ConstraintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintVC.swift; sourceTree = "<group>"; };
@@ -190,6 +196,22 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
+		8BE93DB0256C3D7400702B28 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		8BE93DB8256C70AE00702B28 /* 100Hacking */ = {
+			isa = PBXGroup;
+			children = (
+				8BE93DB5256C70A000702B28 /* 100DaysofSwift.playground */,
+				8BE93DB3256C6FD500702B28 /* day.playground */,
+			);
+			path = 100Hacking;
+			sourceTree = "<group>";
+		};
 		B169782AC69D6E7F8F6248C4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +232,7 @@
 		D640D3A62482445A002A283E = {
 			isa = PBXGroup;
 			children = (
+				8BE93DB8256C70AE00702B28 /* 100Hacking */,
 				D640D3B12482445A002A283E /* Powerful Horse */,
 				D640D3B02482445A002A283E /* Products */,
 				B169782AC69D6E7F8F6248C4 /* Pods */,
@@ -228,6 +251,7 @@
 		D640D3B12482445A002A283E /* Powerful Horse */ = {
 			isa = PBXGroup;
 			children = (
+				8BE93DB0256C3D7400702B28 /* Scene */,
 				8B9F5FEA24F22420002B2294 /* DAO */,
 				D640D3CC24824665002A283E /* Main */,
 				D640D3CB24824620002A283E /* Startup */,
@@ -251,6 +275,8 @@
 				D68A6CDC248390C2007D99BD /* DetailHorseVC.swift */,
 				8B8D9AB72486151C0077B67A /* CallKitVC.swift */,
 				8BED75832490BDC600A00B55 /* ConstraintVC.swift */,
+				8B4CF50A255BAE9F00CEA510 /* HeroPresenter.swift */,
+				8B4CF507255BAE4300CEA510 /* HeroVC.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -453,6 +479,7 @@
 				8BC5497B24E8F37200C1FCA5 /* HTTPStatusCode.swift in Sources */,
 				8BC5496D24E8C1EB00C1FCA5 /* PHError.swift in Sources */,
 				8BEB38D324EA1CC600875607 /* DictionaryExtensions.swift in Sources */,
+				8B4CF508255BAE4300CEA510 /* HeroVC.swift in Sources */,
 				8B8D9ABC248620360077B67A /* CallManager.swift in Sources */,
 				8BEB38D124E8FCEF00875607 /* HTTPContentType.swift in Sources */,
 				D6FAFE3924839F63009EFC42 /* ExtensionUI.swift in Sources */,
@@ -462,6 +489,7 @@
 				8B8D9ABA248617660077B67A /* Call.swift in Sources */,
 				D68A6CDD248390C2007D99BD /* DetailHorseVC.swift in Sources */,
 				D68A6CD924838051007D99BD /* Horse.swift in Sources */,
+				8B4CF50B255BAE9F00CEA510 /* HeroPresenter.swift in Sources */,
 				8B8D9AB82486151C0077B67A /* CallKitVC.swift in Sources */,
 				8B412F5224ECABFC00444AD5 /* PHUser.swift in Sources */,
 				8B1A650724F9934700076357 /* Environment.swift in Sources */,
