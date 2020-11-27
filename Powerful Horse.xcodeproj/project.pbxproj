@@ -70,6 +70,9 @@
 		8BEB38D024E8FCEF00875607 /* HTTPContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPContentType.swift; sourceTree = "<group>"; };
 		8BEB38D224EA1CC600875607 /* DictionaryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryExtensions.swift; sourceTree = "<group>"; };
 		8BED75832490BDC600A00B55 /* ConstraintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstraintVC.swift; sourceTree = "<group>"; };
+		8BFD7AB12570B25700EB0D3B /* Day3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Day3.playground; path = "Powerful Horse/Supporting File/Day3.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BFD7AB32570C1C700EB0D3B /* day4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BFD7AB52570C5CA00EB0D3B /* Day5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day5.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B64848C9F2E73686B2B60B8D /* Pods-Powerful Horse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Powerful Horse.release.xcconfig"; path = "Target Support Files/Pods-Powerful Horse/Pods-Powerful Horse.release.xcconfig"; sourceTree = "<group>"; };
 		D640D3AF2482445A002A283E /* Powerful Horse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Powerful Horse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D640D3B22482445A002A283E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -206,8 +209,11 @@
 		8BE93DB8256C70AE00702B28 /* 100Hacking */ = {
 			isa = PBXGroup;
 			children = (
+				8BFD7AB12570B25700EB0D3B /* Day3.playground */,
 				8BE93DB5256C70A000702B28 /* 100DaysofSwift.playground */,
 				8BE93DB3256C6FD500702B28 /* day.playground */,
+				8BFD7AB32570C1C700EB0D3B /* day4.playground */,
+				8BFD7AB52570C5CA00EB0D3B /* Day5.playground */,
 			);
 			path = 100Hacking;
 			sourceTree = "<group>";

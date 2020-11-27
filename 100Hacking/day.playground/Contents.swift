@@ -68,11 +68,17 @@ let favoriteIceCream = [
 
 favoriteIceCream["Paul"]
 /*
- Pero si intentáramos leer el helado favorito de Charlotte, obtendríamos cero,
+ Pero si intentáramos leer el helado favorito de Charlotte, obtendríamos nil,
  lo que significa que Swift no tiene un valor para esa clave
  */
-favoriteIceCream["Charlotte", default: "Unknown"]
+favoriteIceCream["op"]
 
 
 //======= ENUMs ==========//
+//es una forma facil de definir grupo de valores relacionados a la vaz en una forma de uso facil.
+
+let result = "failure"
+let result2 = "failed"
+let result3 = "fail"
+
 
