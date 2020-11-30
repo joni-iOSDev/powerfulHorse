@@ -1,0 +1,16 @@
+PODS:
+  - SwiftIconFont (6.1.0)
+
+DEPENDENCIES:
+  - SwiftIconFont
+
+SPEC REPOS:
+  trunk:
+    - SwiftIconFont
+
+SPEC CHECKSUMS:
+  SwiftIconFont: 899a700aacafaf92adfbe3caefcb62015933ce4c
+
+PODFILE CHECKSUM: cd31db28f22143ff8059d614a23a332cad1ed2c7
+
+COCOAPODS: 1.9.3

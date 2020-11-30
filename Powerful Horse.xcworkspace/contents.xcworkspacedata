@@ -5,6 +5,9 @@
       location = "group:Powerful Horse.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SwiftUI-Horse/SwiftUI-Horse.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

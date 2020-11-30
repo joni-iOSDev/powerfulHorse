@@ -73,6 +73,8 @@
 		8BFD7AB12570B25700EB0D3B /* Day3.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Day3.playground; path = "Powerful Horse/Supporting File/Day3.playground"; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8BFD7AB32570C1C700EB0D3B /* day4.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day4.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8BFD7AB52570C5CA00EB0D3B /* Day5.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day5.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BFD7AB7257123DB00EB0D3B /* day6.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day6.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8BFD7AB92571E9AA00EB0D3B /* Day7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day7.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B64848C9F2E73686B2B60B8D /* Pods-Powerful Horse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Powerful Horse.release.xcconfig"; path = "Target Support Files/Pods-Powerful Horse/Pods-Powerful Horse.release.xcconfig"; sourceTree = "<group>"; };
 		D640D3AF2482445A002A283E /* Powerful Horse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Powerful Horse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D640D3B22482445A002A283E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +216,8 @@
 				8BE93DB3256C6FD500702B28 /* day.playground */,
 				8BFD7AB32570C1C700EB0D3B /* day4.playground */,
 				8BFD7AB52570C5CA00EB0D3B /* Day5.playground */,
+				8BFD7AB7257123DB00EB0D3B /* day6.playground */,
+				8BFD7AB92571E9AA00EB0D3B /* Day7.playground */,
 			);
 			path = 100Hacking;
 			sourceTree = "<group>";
