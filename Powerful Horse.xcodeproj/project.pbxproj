@@ -64,6 +64,7 @@
 		8BC5497A24E8F37200C1FCA5 /* HTTPStatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStatusCode.swift; sourceTree = "<group>"; };
 		8BC5497C24E8F5F900C1FCA5 /* HTTPExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPExtensions.swift; sourceTree = "<group>"; };
 		8BCE2DF524EC83E1007C0999 /* Auth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Auth.storyboard; sourceTree = "<group>"; };
+		8BD569F325840F99001583E7 /* Day9.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Day9.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8BE21A5424EA523A0017B8C0 /* PHParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHParameters.swift; sourceTree = "<group>"; };
 		8BE93DB3256C6FD500702B28 /* day.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = day.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8BE93DB5256C70A000702B28 /* 100DaysofSwift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = 100DaysofSwift.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -218,6 +219,7 @@
 				8BFD7AB52570C5CA00EB0D3B /* Day5.playground */,
 				8BFD7AB7257123DB00EB0D3B /* day6.playground */,
 				8BFD7AB92571E9AA00EB0D3B /* Day7.playground */,
+				8BD569F325840F99001583E7 /* Day9.playground */,
 			);
 			path = 100Hacking;
 			sourceTree = "<group>";
