@@ -46,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		13C5B4023DABE6A7770D3E87 /* Pods-Powerful Horse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Powerful Horse.debug.xcconfig"; path = "Target Support Files/Pods-Powerful Horse/Pods-Powerful Horse.debug.xcconfig"; sourceTree = "<group>"; };
+		85888B8525A8CF200018958A /* observerPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = observerPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8961BC2E7183873F72C861D7 /* Pods_Powerful_Horse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Powerful_Horse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1A650324F9930B00076357 /* environment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = environment.plist; sourceTree = "<group>"; };
 		8B1A650624F9934700076357 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
@@ -113,13 +114,6 @@
 				8B1A650624F9934700076357 /* Environment.swift */,
 			);
 			path = environment;
-			sourceTree = "<group>";
-		};
-		8B9F5FEA24F22420002B2294 /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DAO;
 			sourceTree = "<group>";
 		};
 		8BC5496824E8C08000C1FCA5 /* Services */ = {
@@ -202,13 +196,6 @@
 			path = Auth;
 			sourceTree = "<group>";
 		};
-		8BE93DB0256C3D7400702B28 /* Scene */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Scene;
-			sourceTree = "<group>";
-		};
 		8BE93DB8256C70AE00702B28 /* 100Hacking */ = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +207,7 @@
 				8BFD7AB7257123DB00EB0D3B /* day6.playground */,
 				8BFD7AB92571E9AA00EB0D3B /* Day7.playground */,
 				8BD569F325840F99001583E7 /* Day9.playground */,
+				85888B8525A8CF200018958A /* observerPattern.playground */,
 			);
 			path = 100Hacking;
 			sourceTree = "<group>";
@@ -263,8 +251,6 @@
 		D640D3B12482445A002A283E /* Powerful Horse */ = {
 			isa = PBXGroup;
 			children = (
-				8BE93DB0256C3D7400702B28 /* Scene */,
-				8B9F5FEA24F22420002B2294 /* DAO */,
 				D640D3CC24824665002A283E /* Main */,
 				D640D3CB24824620002A283E /* Startup */,
 				D640D3CA24824607002A283E /* Supporting File */,
