@@ -20,7 +20,6 @@ for album in albums {
     print("\(album) is on Apple Music")
 }
 
-
 print("Players gonna ")
 
 for _ in 1...5 {
@@ -37,7 +36,6 @@ while number <= 20 {
 }
 
 print("Ready or not, here I come!")
-
 
 //Infinite loops
 var counter = 0

@@ -10,16 +10,13 @@ import UIKit
 
 class MainVC: BaseVC {
     
-    typealias lastName = (Bool) -> Void
-    typealias firstName = (() -> Void)
-
+    typealias LastName = (Bool) -> Void
+    typealias FirstName = (() -> Void)
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setNameWith { [weak self] (result) in
-            guard let self = self else {
-                return
-            }
+        setNameWith {(_) in
+            return
         }
         
     }
@@ -28,12 +25,11 @@ class MainVC: BaseVC {
         goTo(segue: .goToDashboard)
     }
     
-    
-    internal func setNameWith(_:@escaping lastName) {
+    internal func setNameWith(_:@escaping LastName) {
         
     }
     
-    internal func setFirstNameWith(_:firstName) {
+    internal func setFirstNameWith(_:FirstName) {
         
     }
 }

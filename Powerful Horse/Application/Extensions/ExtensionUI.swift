@@ -30,11 +30,11 @@ extension UIButton {
    }
 }
 extension UIColor {
-    class func colorCompany(_ nameCompany: company) -> UIColor {
+    class func colorCompany(_ nameCompany: Company) -> UIColor {
         switch nameCompany {
-        case .Facebook:
+        case .facebook:
             return UIColor(named: "facebookColor")!
-        case .Google:
+        case .google:
             ()
         }
         return .black
@@ -42,9 +42,7 @@ extension UIColor {
     
 }
 
-enum company {
-    case Facebook
-    case Google
+enum Company {
+    case facebook
+    case google
 }
-
-

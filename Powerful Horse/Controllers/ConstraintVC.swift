@@ -10,7 +10,6 @@ import UIKit
 
 class ConstraintVC: UIViewController {
     
-    
     @IBOutlet weak var objcView: UIView!
     @IBOutlet weak var switchView: UISwitch!
     @IBOutlet weak var txtView: UITextView!

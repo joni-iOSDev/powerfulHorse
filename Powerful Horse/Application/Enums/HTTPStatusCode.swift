@@ -114,7 +114,6 @@ public enum HTTPStatusCode: Int, Error {
     // Client Error - 4xx
     //
     
-    
     /// - badRequest: The server cannot or will not process the request due to an apparent client error.
     case badRequest = 400
     

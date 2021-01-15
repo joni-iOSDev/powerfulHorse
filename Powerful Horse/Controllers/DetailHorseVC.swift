@@ -28,25 +28,26 @@ class DetailHorseVC: BaseVC {
         customButton.layer.cornerRadius = customButton.frame.width / 2.0
         customButton.clipsToBounds = true
         customButton.tintColor = .white
-        customButton.backgroundColor = .colorCompany(.Facebook)
+        customButton.backgroundColor = .colorCompany(.facebook)
         customButton.setTitle("Iniciar con Facebook", for: .normal)
         customButton.setImage(icon, for: .normal)
     }
     
-       
     @IBAction func customButtonTapped(_ sender: UIButton) {
         PHServices.shared.getGames(
             vc: self,
             onInitRequest: {
                 ()
-        }, onFinisRequest: {
+            },
+            onFinisRequest: {
             ()
-        }, onError: { (error) in
+            },
+            onError: { (_) in
             ()
-        }, onFatal: {
+            },
+            onFatal: {
             ()
-        }) { (status, response) in
-            ()
+            }) {(_, _) in
         }
     }
     
@@ -56,7 +57,7 @@ class DetailHorseVC: BaseVC {
     
 }
 
-class ovalViewDEMO: UIView {
+class OvalViewDEMO: UIView {
     
     override func draw(_ rect: CGRect) {
         //// Oval Drawing
@@ -64,6 +65,4 @@ class ovalViewDEMO: UIView {
         UIColor.gray.setFill()
         ovalPath.fill()
     }
-
 }
-

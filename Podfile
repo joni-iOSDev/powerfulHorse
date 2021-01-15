@@ -5,6 +5,7 @@ target 'Powerful Horse' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod 'SwiftIconFont'
+  pod 'SwiftLint'
   # Pods for Powerful Horse
 
 end

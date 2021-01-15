@@ -17,6 +17,4 @@ class UserManager {
     init(user: PHUser) {
         self.user = user
     }
-    
-    
 }

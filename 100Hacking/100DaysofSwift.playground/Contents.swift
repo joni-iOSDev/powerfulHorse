@@ -4,7 +4,7 @@ var str = "Hello, playground"
 
 var age = 38
 
-//VARIABLES
+// VARIABLES
 
 /**
  Las variables permite almacenar temporalmente 

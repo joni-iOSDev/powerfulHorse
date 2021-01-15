@@ -49,7 +49,6 @@ struct FamilyTree {
     }
 }
 
-
 struct Person2 {
     var name: String
     //agregando lazy var swift solo lo va a crear a la estructura FamilyTree cuando este tenga un primer acceso.
@@ -61,9 +60,9 @@ struct Person2 {
 
 var personConLazy = Person2(name: "Jonatan")
 
-personConLazy.familyTree // si personConLazy es un let cuando queramos acceder a este con una propiedad lazy sale un error por que al acceder a una propiedad que va a ser creada en ese momento, let lo bloquea al no poder cambiar su valor, ergo debo pasarlo a un VAR
-
+personConLazy.familyTree
+/*
+ si personConLazy es un let cuando queramos acceder a este con una propiedad lazy sale un error por que al acceder a una propiedad que va a ser creada en ese momento, let lo bloquea al no poder cambiar su valor, ergo debo pasarlo a un VAR
+ */
 
 // === Static properties and methods ====
-
-

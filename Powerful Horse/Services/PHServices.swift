@@ -12,7 +12,7 @@ import UIKit
 
 public class PHServices {
     
-    //MARK: - SINGLETON
+    // MARK: - SINGLETON
     public static let shared = PHServices()
     
     let publicKeyMarvel = "8483027415295ed65dff4567f9647312"
@@ -20,20 +20,19 @@ public class PHServices {
     let urlMarvel = "https://api-v3.igdb.com"
     let keyServer = ["user-key": "88d3e5ce4a8d1853fbfc756a47a73ecc"]
     
-    //MARK: GET Games
+    // MARK: GET Games
     public func getGames(
         vc: UIViewController? = nil,
         onInitRequest: @escaping InitRequest,
         onFinisRequest: @escaping FinishRequest,
         onError: @escaping ErrorResponse,
         onFatal: @escaping FatalResponse,
-        onResponse: @escaping (_ status: HTTPStatusCode, _ response: [String:Any]) -> Void) {
+        onResponse: @escaping (_ status: HTTPStatusCode, _ response: [String: Any]) -> Void) {
         
         let params = [
-            "fields":"*"
+            "fields": "*"
         ]
         makeRequest(
-            vc: vc,
             endpoint: "\(urlMarvel)/games/",
             params: params,
             method: .post,
@@ -45,39 +44,32 @@ public class PHServices {
         }
     }
     
-    
-    
     public func getComic(
-        by comicId      : Int,
-        vc              : UIViewController? = nil,
-        onInitRequest   : @escaping InitRequest,
-        onFinisRequest  : @escaping FinishRequest,
-        onError         : @escaping ErrorResponse,
-        onFatal         : @escaping FatalResponse,
-        onResponse      : @escaping (_ status: HTTPStatusCode, _ response: [String:Any]) -> Void) {
+        by comicId: Int,
+        vc: UIViewController? = nil,
+        onInitRequest: @escaping InitRequest,
+        onFinisRequest: @escaping FinishRequest,
+        onError: @escaping ErrorResponse,
+        onFatal: @escaping FatalResponse,
+        onResponse: @escaping (_ status: HTTPStatusCode, _ response: [String: Any]) -> Void) {
         
         let params = [
             "apikey": "8483027415295ed65dff4567f9647312"
-            
         ]
         
         makeRequest(
-            vc              : vc,
-            endpoint        : "\(urlMarvel)/v1/public/comics/\(comicId)",
-            params          : params,
-            method          : .get,
-            onInitRequest   : onInitRequest,
-            onFinishRequest : onFinisRequest,
-            onError         : onError,
-            onFatal         : onFatal) { (statusCode, jsonResponse) in
+            endpoint: "\(urlMarvel)/v1/public/comics/\(comicId)",
+            params: params,
+            method: .get,
+            onInitRequest: onInitRequest,
+            onFinishRequest: onFinisRequest,
+            onError: onError,
+            onFatal: onFatal) { (statusCode, jsonResponse) in
                 onResponse(statusCode, jsonResponse)
         }
     }
     
-
-    
     public func makeRequest(
-        vc: UIViewController?,
         endpoint: String,
         params: Parameters?,
         method: HTTPMethod,
@@ -90,11 +82,11 @@ public class PHServices {
         onInitRequest()
         print("PH123 <===== 🚀 onInitRequest =====>")
         print("PH123 🌍 URL: \(endpoint)")
-        if let _ = params {
+        if params != nil {
             print("FW12 📝 Params: \(String(describing: params!))")
         }
                 
-        let headers: HTTPHeaders? = HTTPHeaders(["user-key":"88d3e5ce4a8d1853fbfc756a47a73ecc"])
+        let headers: HTTPHeaders? = HTTPHeaders(["user-key": "88d3e5ce4a8d1853fbfc756a47a73ecc"])
         let paramsss = PHParameters()
                 
         AF.request(
@@ -106,7 +98,7 @@ public class PHServices {
                 
                 switch response.result {
                 case .success:
-                    if let resp = response.value as? [String:Any] {
+                    if let resp = response.value as? [String: Any] {
                         let code = response.response!.statusCode
                         onResponse(HTTPStatusCode(rawValue: code)!, resp)
                         print("PH123 -> Response result -> \(resp.values)")
@@ -119,9 +111,6 @@ public class PHServices {
                     print("Error -> \(String(describing: response.error))")
                 }
                 onFinishRequest()
-        }
+            }
     }
-    
 }
-
-

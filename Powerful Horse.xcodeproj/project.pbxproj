@@ -46,7 +46,11 @@
 
 /* Begin PBXFileReference section */
 		13C5B4023DABE6A7770D3E87 /* Pods-Powerful Horse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Powerful Horse.debug.xcconfig"; path = "Target Support Files/Pods-Powerful Horse/Pods-Powerful Horse.debug.xcconfig"; sourceTree = "<group>"; };
+		8586D7A825AD3E58005DE651 /* BuilderPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BuilderPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8586D7AA25AD5E4E005DE651 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		85888B8525A8CF200018958A /* observerPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = observerPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		85B7932925A9462500187DC3 /* MVPFlowCoordinator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MVPFlowCoordinator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		85FF961625B144E200999757 /* MemoryLeaks.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MemoryLeaks.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		8961BC2E7183873F72C861D7 /* Pods_Powerful_Horse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Powerful_Horse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1A650324F9930B00076357 /* environment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = environment.plist; sourceTree = "<group>"; };
 		8B1A650624F9934700076357 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
@@ -107,6 +111,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85B7931F25A9452D00187DC3 /* HowTo */ = {
+			isa = PBXGroup;
+			children = (
+				85B7932925A9462500187DC3 /* MVPFlowCoordinator.playground */,
+				8586D7A825AD3E58005DE651 /* BuilderPattern.playground */,
+				8586D7AA25AD5E4E005DE651 /* MyPlayground.playground */,
+				85FF961625B144E200999757 /* MemoryLeaks.playground */,
+			);
+			path = HowTo;
+			sourceTree = "<group>";
+		};
 		8B1A650524F9933100076357 /* environment */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +247,7 @@
 		D640D3A62482445A002A283E = {
 			isa = PBXGroup;
 			children = (
+				85B7931F25A9452D00187DC3 /* HowTo */,
 				8BE93DB8256C70AE00702B28 /* 100Hacking */,
 				D640D3B12482445A002A283E /* Powerful Horse */,
 				D640D3B02482445A002A283E /* Products */,
@@ -356,6 +372,7 @@
 				D640D3AC2482445A002A283E /* Frameworks */,
 				D640D3AD2482445A002A283E /* Resources */,
 				E2EF397F6AE4E0D9EBB91D4A /* [CP] Embed Pods Frameworks */,
+				8545016425A8F04B001F4691 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -442,6 +459,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		8545016425A8F04B001F4691 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		E2EF397F6AE4E0D9EBB91D4A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

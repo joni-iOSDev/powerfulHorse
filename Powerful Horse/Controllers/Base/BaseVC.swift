@@ -11,21 +11,18 @@ import UIKit
 
 class BaseVC: UIViewController {
     
-    var name: demoFinal?
-    
+    var name: DemoFinal?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        name = demoFinal(name: "demo")
+        name = DemoFinal(name: "demo")
     }
     
-    
-    
-     func goTo(segue: goToVC) {
+     func goTo(segue: GoToVC) {
         self.performSegue(withIdentifier: segue.rawValue, sender: self)
     }
     
-    enum goToVC: String {
+    enum GoToVC: String {
         case goToDashboard = "goToDashboard"
         case goToDetailHorse = "goToDetailHorse"
         case goToAutoScroll = "goToAutoScroll"
@@ -35,7 +32,7 @@ class BaseVC: UIViewController {
     }
 }
 
-final class demoFinal {
+final class DemoFinal {
     var name: String
     
     init(name: String) {

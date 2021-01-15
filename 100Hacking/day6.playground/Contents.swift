@@ -18,13 +18,11 @@ let hello = { (name: String) in
 
 hello("Joni")
 
-
 // Retornando valores desde el closure
 
 let drivingDriving = {(place: String) -> String in
     return "I'm going to \(place) in my car"
 }
-
 
 let message = drivingDriving("Vancouver")
 
@@ -65,9 +63,6 @@ myTravel {
     print("I'm driving in my monopatin")
 }
 
-
-
-
 //
 
 func weTravel(action: (String) -> String) {
@@ -98,7 +93,6 @@ weTravel { place -> String in
 weTravel { place in
     return "I'm going to \(place) in my car"
 }
-
 
 //style 4
 weTravel {

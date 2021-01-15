@@ -1,16 +1,20 @@
 PODS:
   - SwiftIconFont (6.1.0)
+  - SwiftLint (0.42.0)
 
 DEPENDENCIES:
   - SwiftIconFont
+  - SwiftLint
 
 SPEC REPOS:
   trunk:
     - SwiftIconFont
+    - SwiftLint
 
 SPEC CHECKSUMS:
   SwiftIconFont: 899a700aacafaf92adfbe3caefcb62015933ce4c
+  SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
 
-PODFILE CHECKSUM: cd31db28f22143ff8059d614a23a332cad1ed2c7
+PODFILE CHECKSUM: 3bec69f3cd3f1cb1900f424fbb912eb484ed002f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0

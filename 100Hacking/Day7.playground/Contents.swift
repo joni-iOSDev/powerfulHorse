@@ -1,10 +1,7 @@
 import UIKit
 
 // CREANDO TU PROPIO STRUCTS
-
 //Swift te permite diseñar tus propios type de dos formas, el cual el mas comun es llamado structures, o solo structs.
-
-
 //vamos a comenzar con algo simple
 
 struct Sport {

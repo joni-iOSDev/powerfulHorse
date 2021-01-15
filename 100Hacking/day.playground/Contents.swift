@@ -73,12 +73,9 @@ favoriteIceCream["Paul"]
  */
 favoriteIceCream["op"]
 
-
 //======= ENUMs ==========//
 //es una forma facil de definir grupo de valores relacionados a la vaz en una forma de uso facil.
 
 let result = "failure"
 let result2 = "failed"
 let result3 = "fail"
-
-
